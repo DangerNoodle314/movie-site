@@ -14,3 +14,8 @@
 
 ## Citations
 * Your citations go here
+* [plyr](https://github.com/sampotts/plyr)
+* [youtube] (https://www.youtube.com/watch?v=Vfugwq2uoa0)
+* [RottenTomatos] (https://www.rottentomatoes.com/celebrity/sam_troughton)
+* [IMDB] (https://www.imdb.com/title/tt5638642/)
+* [google] (https://fonts.google.com/selection/embed)

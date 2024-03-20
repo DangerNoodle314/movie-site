@@ -1,5 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Chonburi&family=Ubuntu+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
 body {
-    background: gray;
+    background: #172F1E;
 }
 
 /* CSS Variables */
@@ -29,23 +31,41 @@ body {
 /* Layout */
 main {
     /* Fixed width center align */
-    max-width: 60em;
+    max-width: 75%;
     margin-inline: auto;
 
-    background: lightgray;
+    background: rgb(238, 238, 222);
+    padding: 1.5rem;
 }
 
-main img {
+img {
     /* Fit image to container */
     max-width: 100%;
     display: block;
 }
 
+
+section{
+    max-width: 50%;
+    font-family:  "Ubuntu Mono", monospace;
+    font-size: 1.5em;
+    line-height: 1.15em;
+
+}
+
+.artists{
+    flex-direction: row;
+}
+
+.artists h1{font-size: 3em;}
+.artists h2{font-size: 1.15em;}
+
+
 article {
     /* flow content horizontally */
     display: flex;
-    gap: 1em;
-    justify-content: center;
+    gap: .5em;
+    justify-content: space-around;
 }
 
 footer {
