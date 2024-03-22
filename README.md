@@ -13,9 +13,10 @@
 * [Websites dedicated to movies are an historical archive](https://www.spacejam.com/1996/jam.html). The _Space Jam_ website still works.
 
 ## Citations
-* Your citations go here
+* [Wiki](https://en.wikipedia.org/wiki/The_Ritual_(2017_film))
 * [plyr](https://github.com/sampotts/plyr)
 * [youtube] (https://www.youtube.com/watch?v=Vfugwq2uoa0)
 * [RottenTomatos] (https://www.rottentomatoes.com/celebrity/sam_troughton)
 * [IMDB] (https://www.imdb.com/title/tt5638642/)
 * [google] (https://fonts.google.com/selection/embed)
+* [Netflix] (netflix.com)

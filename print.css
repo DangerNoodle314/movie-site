@@ -1,15 +1,19 @@
 @media print {
 
     /* hide */
-    audio {
+    video {
         display: none;
     }
     
     /* print links */
     a[href]::after {
-        content: " " attr( href )
+        content: none;
     }
     
+    img{
+        height: 25%;
+        width: 25%;
+    }
     /* paper sizing */
     @page {
         margin: 1in;

@@ -47,24 +47,47 @@ img {
 
 
 section{
+    display: flex;
+    flex-wrap: wrap;
     max-width: 50%;
     font-family:  "Ubuntu Mono", monospace;
     font-size: 1.5em;
     line-height: 1.15em;
+    align-items: center;
 
 }
 
 .artists{
     flex-direction: row;
+    flex-wrap: wrap;
+    width: 50%;
+    padding: 1em;
 }
-
+.artists p{
+    display:block;
+    font-weight: 600;
+    font-size: 1.15em;
+}
 .artists h1{font-size: 3em;}
-.artists h2{font-size: 1.15em;}
+.artists h2{font-size: 1.15em;
+padding: .5em;
+align-items: center;
+display: flex;}
 
-
+figure{
+    display: flex;
+    flex-direction: column;
+    margin:.5em;
+    max-width: fit-content;
+    align-items:center;
+}
+figcaption{
+    max-width: 120px;
+}
 article {
     /* flow content horizontally */
     display: flex;
+    flex-direction: row;
     gap: .5em;
     justify-content: space-around;
 }
@@ -73,10 +96,59 @@ footer {
     text-align: center;
 }
 
+a:link, 
+a:visited {
+  
+  background: #172F1E;
+  border-radius: 4px;
+  color: white;
+  
+  min-width: 5em;
+  margin: .5em;
+  padding: .5rem 3rem;
+  
+  text-align: center;
+}
+
+/* Last Frame */
+a:hover, a:active {
+  background: #083b15;
+  border: 1px solid black;
+  color: #d15353 ;
+  
+  transform:scale(5em);
+  
+  transition: background .5s, 
+    transform .5s 1s;
+}
+
 /* Media Queries */
 @media (max-width: 600px) {
-    main article {
+    
+    main{min-width: 400px;}
+
+    article {
         flex-direction: column;
         align-items: center;
+        min-width: 75%;
     }
+
+    .artists{
+        min-width: 75%;
+        flex-direction: column;
+        align-items:center;
+    }
+
+    .artists h1{
+        font-size: 1.15em;
+    }
+
+    section{
+        min-width: 90%;
+    }
+    a{
+        display:flex;
+        justify-content: center;
+    }
+
 }
