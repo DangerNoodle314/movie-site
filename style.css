@@ -40,8 +40,8 @@ main {
 
 img {
     /* Fit image to container */
-    max-width: 100%;
-    display: block;
+    max-width: 120px;
+    display: flex;
 }
 
 
